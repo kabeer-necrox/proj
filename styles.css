@@ -7,9 +7,9 @@
 
 .firstMainSection{
     width:100%;
-    height: 100vh;
+    height: 80vh;
     background-color: #1f242c;
-   
+   background-image: url();
 }
 
 
@@ -17,9 +17,10 @@
 .Navbar{
     width: 100%;
     height: 100px;
-    
+    flex-wrap: wrap;
     display: flex;
     justify-content: space-between;
+   
    
 }
 
@@ -43,7 +44,7 @@
 
 .logoNav{
     width: 40%;
-    
+   
     display: flex;
     justify-content: flex-end;
     padding-right: 15px;
@@ -155,43 +156,6 @@ padding-left: 10px;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ********sixthSectionForm*********************** */
 .sixthSectionForm{
     width: 100%;
@@ -217,6 +181,7 @@ padding-left: 10px;
     flex-direction: row;
     padding-top: 140px;
     color: white;
+    flex-wrap: wrap;
 }
 .sexsectionLinCon a{
     color: white;
@@ -229,13 +194,112 @@ padding-left: 10px;
 
 
 
+/* *********************fourth-section-main************************ */
+.fouthsectionmain{
+    width: 100%;
+    height: 100vh;
+    background-color: #222831;
+    
+}
+@media only screen and (max-width: 392px) {
+    .fouthsectionmain {
+        height: 220vh; /* Double the height */
+        padding-top: 10px;
+    }
+}
+@media only screen and (max-width: 504px) {
+    .fouthsectionmain {
+        height: 140vh; /* Double the height */
+        padding-top: 10px;
+    }
+}
+.fourthsectionmandin{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    flex-wrap: wrap;
+}
+.fourthsectionmandin img{
+    width: 200px;
+}
+
+
+
+
+/* *********************fithsection style is here*************************** */
+.fifthsectionMainsect{
+    width: 100%;
+    height: 100vh;
+    background-color: #222831;
+
+}
+
+@media only screen and (max-width: 492px) {
+    .fifthsectionMainsect{
+        width: 100%;
+        height: 100vh;
+        background-color: #222831;
+    
+    }    
+}
+
+.fithsectiontext h1{
+    text-align: center;
+    color: white;
+}
+.fifthemptybox{
+    width: 70%;
+    height: 10px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 20px;
+    /* padding-top: 20px; */
+    /* color: white; */
+}
+.fithsectiontwoimages{
+    display: flex;
+    justify-content: center;
+    /* margin-left: 10px; */
+    /* margin: 0 auto; */
+    
+}
+.fithsectiontwoimages img{
+    padding-top: 40px;
+    height: 350px;
+
+    padding-left: 30px;
+}
+
+
+.fifthlasttext{
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-top: 30px;
+}
+
+
+
+
+
+
+
+
+
 /* ************footer section style*********** */
 
 .mainfooterSection{
     width: 100%;
     height: 45vh;
     background-color: #222831;
+    
    
+}
+@media only screen and (max-width: 392px) {
+    .mainfooterSection {
+        height: 90vh; /* Double the height */
+        padding-top: 10px;
+    }
 }
 
 
