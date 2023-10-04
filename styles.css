@@ -26,7 +26,7 @@
 
 .butN{
    
-    width: 200px;
+    width: 150px;
 }
 .butN button{
     width: 80px;
@@ -55,6 +55,7 @@
 .logoNav img{
     width: 80px;
     height: 70px;
+  
    
 }
 
@@ -91,12 +92,28 @@ padding-left: 30px;
     background-color: #393e46;
 }
 
+@media only screen and (max-width: 504px) {
+    .seconSectionMain{
+        width: 100%;
+        height: 100vh;
+        background-color: #393e46;
+    }
+    
+}
+
 
 .mainsectionIshere{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     padding: 10px;
+}
+@media only screen and (max-width: 504px) {
+    .mainsectionIshere .secondSectionlastpic img{
+        /* height: 100vh; */
+        padding-top: 10px;
+        width: 200px;
+    }
 }
 .secondsectionText p {
     color: white;
@@ -129,6 +146,8 @@ padding-left: 10px;
     width: 100%;
     height: 100vh;
     background-image: url(./images/Teams.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .hereistheThirsectionlink{
     display: flex;
@@ -143,14 +162,6 @@ padding-left: 10px;
     font-size: 38px;
 
 }
-
-
-
-
-
-
-
-
 
 
 
@@ -201,26 +212,37 @@ padding-left: 10px;
     background-color: #222831;
     
 }
-@media only screen and (max-width: 392px) {
-    .fouthsectionmain {
-        height: 220vh; /* Double the height */
-        padding-top: 10px;
-    }
-}
-@media only screen and (max-width: 504px) {
-    .fouthsectionmain {
-        height: 140vh; /* Double the height */
-        padding-top: 10px;
-    }
-}
+
+
 .fourthsectionmandin{
     display: flex;
     justify-content: space-around;
     padding-top: 40px;
     flex-wrap: wrap;
 }
+@media only screen and (max-width: 375px) {
+    .fourthsectionmandin{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+      
+    }
+
+}
+@media only screen and (max-width: 375px) {
+    .fourthsectionmandin img{
+        width: 100px;
+       
+        height: 100px;
+      
+    }
+
+}
+
+
 .fourthsectionmandin img{
     width: 200px;
+    /* height: 100px; */
 }
 
 
@@ -238,8 +260,6 @@ padding-left: 10px;
     .fifthsectionMainsect{
         width: 100%;
         height: 100vh;
-        background-color: #222831;
-    
     }    
 }
 
@@ -268,6 +288,11 @@ padding-left: 10px;
     height: 350px;
 
     padding-left: 30px;
+}
+@media only screen and (max-width: 492px) {
+    .fithsectiontwoimages img{
+     width: 150px;
+    }   
 }
 
 
@@ -303,6 +328,14 @@ padding-left: 10px;
 }
 
 
+@media only screen and (max-width: 392px) {
+    .letFooter {
+     padding-left: 30px;
+     display: flex;
+     flex-wrap: wrap;
+    }
+}
+
 .letFooter{
     display: flex;
     flex-direction: column;
@@ -318,6 +351,23 @@ padding-left: 10px;
     justify-content: space-between;
     flex-wrap: wrap;
     
+}
+@media only screen and (max-width: 392px) {
+    .ftrThreee{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+       
+        
+    }
+}
+
+
+@media only screen and (max-width: 392px) {
+    .letFooter {
+     padding-left: 30px;
+    
+    }
 }
 .letFooter{
     padding-top: 30px;
@@ -335,12 +385,34 @@ padding-left: 10px;
     text-decoration: none;
 }
 
+@media only screen and (max-width: 392px) {
+    .rightFooter a{
+       padding-left: 20px;
+    }
+}
+
 .rightFooter h2{
    color: white;
+}
+@media only screen and (max-width: 392px) {
+    .rightFooter h2{
+       padding-left: 20px;
+       
+    }
 }
 .centerFooter img{
     width: 215px;
     height: 226px;
+}
+
+
+@media only screen and (max-width: 392px) {
+    .centerFooter img {
+    
+     /* padding-right: 20px; */
+     margin-right: 70px;
+     width: 100px;
+    }
 }
 
 
